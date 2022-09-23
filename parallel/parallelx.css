@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    overflow: auto;
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(parallelimg/flag2.jpg);
+    background-size: 100% 100%;
+
+
+
+}
+
+header ul li {
+    font-size: xx-large;
+    display: inline;
+    background-attachment: fixed;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+@media screen and (max-width: 500px) {
+    .nav a  {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+.one {
+    width: 100%;
+    background-image: url(parallelimg/militry.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    width: 100%;
+    background-image: url(parallelimg/airforce.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three {
+    width: 100%;
+    background-image: url(parallelimg/navy2.jpg);
+    height: 130vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    width: 100%;
+    background-image: url(parallelimg/NSG.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+}
+
+.para {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+h1 {
+    background-color: black;
+    color: white
+}
